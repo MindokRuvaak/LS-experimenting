@@ -1,15 +1,15 @@
 {
-  "name": "REPLACE_ME",
-  "description": "REPLACE_ME",
-  "version": "1.0.0",
-  "author": "REPLACE_ME",
+  "name": "pi-gen-server",
+  "description": "testing around with language servers/LSP",
+  "version": "0.0.1",
+  "publisher": "Me <*|:)",
   "license": "MIT",
   "engines": {
     "node": "*"
   },
   "repository": {
     "type": "git",
-    "url": "REPLACE_ME"
+    "url": "https://github.com/MindokRuvaak/LS-experimenting"
   },
   "dependencies": {
     "vscode-languageserver": "^8.1.0",
