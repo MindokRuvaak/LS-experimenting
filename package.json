@@ -5,16 +5,31 @@
   "license": "MIT",
   "version": "0.0.1",
   "publisher": "Me <*|:)",
-  "categories": [],
+  "categories": [
+    "Programming Languages"
+  ],
   "engines": {
     "vscode": "^1.75.0"
   },
   "activationEvents": [
-    "onLanguage"
+    "onLanguage:plaintext"
   ],
   "main": "./client/out/extension",
   "contributes": {
-    "configuration": {}
+    "languages": [
+      {
+        "id": "piGen",
+        "extensions": [
+          ".pg"
+        ],
+        "aliases": [
+          "PIgen",
+          "pg",
+          "pigeon"
+        ],
+        "configuration": "./language-tools/language-configuration.json"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
