@@ -1,10 +1,10 @@
 {
-  "name": "REPLACE_ME",
-  "description": "REPLACE_ME",
-  "author": "REPLACE_ME",
+  "name": "pi-gen",
+  "description": "testing around with language servers/LSP",
+  "author": "Cole",
   "license": "MIT",
-  "version": "1.0.0",
-  "publisher": "REPLACE_ME",
+  "version": "0.0.1",
+  "publisher": "Me <*|:)",
   "categories": [],
   "engines": {
     "vscode": "^1.75.0"
