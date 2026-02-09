@@ -18,7 +18,7 @@
   "contributes": {
     "languages": [
       {
-        "id": "piGen",
+        "id": "pi-gen",
         "extensions": [
           ".pg"
         ],
