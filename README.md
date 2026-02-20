@@ -1,12 +1,12 @@
 # Viable VS Code Language Server+ Extension
 ## overview
-NOTE: This is a fork of this [https://github.com/semanticart/minimum-viable-vscode-language-server-extension][template repository], which in turn is based upon this [lsp-sample from vscode-extension-samples][sample].
+NOTE: This is a fork of this [template repository](https://github.com/semanticart/minimum-viable-vscode-language-server-extension), which in turn is based upon this [sample](https://github.com/microsoft/vscode-extension-samples/tree/main/lsp-sample).
 
 This also includes some additional features such as: 
-- [x] auto indentation, auto-close brackets and stings, comment toggeling etc. following from [https://github.com/microsoft/vscode-extension-samples/tree/main/language-configuration-sample][sample]
-- [ ] syntax highliting
-- [ ] semantic highliting following [https://github.com/Microsoft/vscode-extension-samples/tree/main/semantic-tokens-sample][sample]
-- [ ] (potentially) lsp log streaming? following this [https://github.com/microsoft/vscode-extension-samples/tree/main/lsp-log-streaming-sample][sample]
+- [x] auto indentation, auto-close brackets and stings, comment toggeling etc. following from [sample](https://github.com/microsoft/vscode-extension-samples/tree/main/language-configuration-sample)
+- [ ] syntax highliting [guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
+- [ ] semantic highliting following [sample](https://github.com/Microsoft/vscode-extension-samples/tree/main/semantic-tokens-sample)
+- [ ] (potentially) lsp log streaming? following this [sample](https://github.com/microsoft/vscode-extension-samples/tree/main/lsp-log-streaming-sample)
 
 ## build and running
 1. Build the extension (both client and server) with  `ctrl+shift+B` (on windows)
@@ -17,4 +17,4 @@ This also includes some additional features such as:
 
 ## Distributing your extension
 
-Note that you can package and distribute a standalone `.vsix` file without publishing it to the marketplace by following [these instructions][vsix].
+Note that you can package and distribute a standalone `.vsix` file without publishing it to the marketplace by following [these instructions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#packaging-extensions).
