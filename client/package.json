@@ -1,10 +1,10 @@
 {
-  "name": "pi-gen-client",
-  "description": "testing around with language servers/LSP",
+  "name": "mylang-client",
+  "description": "language server client for unnamed language",
   "author": "Cole",
   "license": "MIT",
   "version": "0.0.1",
-  "publisher": "Me <*|:)",
+  "publisher": "we :)",
   "repository": {
     "type": "git",
     "url": "https://github.com/MindokRuvaak/LS-experimenting"

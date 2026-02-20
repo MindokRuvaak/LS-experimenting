@@ -1,8 +1,8 @@
 {
-  "name": "pi-gen-server",
-  "description": "testing around with language servers/LSP",
+  "name": "mylang-server",
+  "description": "language server server for unnamed language",
   "version": "0.0.1",
-  "publisher": "Me <*|:)",
+  "publisher": "we :)",
   "license": "MIT",
   "engines": {
     "node": "*"

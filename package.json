@@ -1,10 +1,10 @@
 {
-  "name": "pi-gen",
-  "description": "testing around with language servers/LSP",
+  "name": "mylang",
+  "description": "language server following lsp for this unnamed language",
   "author": "Cole",
   "license": "MIT",
   "version": "0.0.1",
-  "publisher": "Me <*|:)",
+  "publisher": "we :)",
   "categories": [
     "Programming Languages"
   ],
@@ -12,22 +12,29 @@
     "vscode": "^1.75.0"
   },
   "activationEvents": [
-    "onLanguage:plaintext"
+   
   ],
   "main": "./client/out/extension",
   "contributes": {
     "languages": [
       {
-        "id": "pi-gen",
+        "id": "mylang",
         "extensions": [
-          ".pg"
+          ".ml"
         ],
         "aliases": [
-          "PIgen",
-          "pg",
-          "pigeon"
+          "mylang",
+          "myLang",
+          "MyLang"
         ],
         "configuration": "./language-tools/language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "mylang",
+        "scopeName": "source.mylang",
+        "path": "./syntaxes/mylang.tmLanguage.json"
       }
     ]
   },

@@ -22,7 +22,9 @@ connection.onInitialize((params: InitializeParams) => {
       textDocumentSync: TextDocumentSyncKind.Incremental,
     },
   };
-
+  connection.window.showInformationMessage(
+    "*mylang* Language server extension initialized successfully!"
+  );
   return result;
 });
 
